@@ -1,0 +1,40 @@
+<html>
+
+  <head>
+    <title>Emoji Rock, Paper, Scissors</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="favicon.png">
+  </head>
+
+  <body>
+    <div class="page__container">
+
+      <img class="logo" src="assets/Kidpixel.png" alt="Kidpixel Games Logo">
+      <p>Let's play a game of Emoji Rock Paper Scissors!</p>
+    
+      <p>Click the button below to start!</p>
+
+      <div class="game-container">
+        <div class="player-container">
+          <div class="name-1">Player 1</div>
+          <div id="player-1" style="font-size: 50px;">🙆🏻‍♂️</div>
+          <p>Wins: <span id="score-1"> 0 </span> </p>
+        </div>
+
+        <div id="result-area" style="margin: 0 50px; font-size: 30px;">Results</div>
+
+        <div class="player-container">
+          <div class="name-2">Player 2</div>
+          <div id="player-2" style="font-size: 50px;">🙅🏻</div>
+          <p>Wins: <span id="score-2"> 0 </span> </p>
+        </div>
+      </div>
+
+      <div id="play-btn" class="disabled">Click Me To Play</div>
+
+    </div>
+    <script src="index.js"></script>
+    
+  </body>
+</html>
